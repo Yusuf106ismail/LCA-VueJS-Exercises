@@ -1,21 +1,23 @@
-# Homes & Beyond - Property Listings App Prototype
+# FlexZone Fitness - Class Schedule Management Portal
 
-A modern, interactive, single-page application prototype showcasing short-term rentals in Cape Town. Built with Vue 3 using a highly decoupled architecture and responsive card designs.
+A lightweight, modern, and interactive Vue 3 prototype built for **FlexZone Fitness** to help gym staff and instructors digitise their scheduling processes.
 
-## 🚀 Key Features Built
-* **Dynamic Data Rendering:** Real-estate cards parse dynamically out of internal clean schemas.
-* **Real-time Logic Search:** Instantly matches titles or locations natively via computed properties.
-* **Price Engine Sorting:** Toggle between high-to-low or low-to-high pricing tiers.
-* **Availability Badges:** Custom conditional ribbons visually masking non-reservable properties.
-* **Persistent Bookmarks (Stretch Goal):** Saves favorited configurations directly inside browser local storage arrays across reloads.
+## 🚀 Features
 
-## 📸 Interface Preview
+* **Dynamic Schedule Management:** Instantly add or cancel fitness sessions with real-time reactive UI updates.
+* **Built-in Validation:** Safe inputs checking ensuring all necessary details (Name, Coach, Date, Time, Capacity) are filled out perfectly.
+* **Live Dashboard Stats:** Dynamically tracks total scheduled entries and isolates your next upcoming class session chronologically.
+* **Local Storage Syncing:** Keeps your dataset secured locally right inside your web browser. Refreshing won't wipe your records.
+* **Search Filters:** Quick filter field to find scheduled sessions assigned to specific coaches.
+* **Fully Responsive Layout:** Tailored cleanly for both desktop monitors and smartphones.
 
-## 🛠️ Installation & Run Guide
+---
 
-Follow these simple steps to spin up the local development preview tracker:
+## 🛠️ Project Setup & Run Instructions
 
-1. **Clone the repository:**
-   ```bash
-   git clone <YOUR_GITHUB_REPO_LINK_HERE>
-   cd homes-and-beyond
+Ensure you have [Node.js](https://nodejs.org/) installed on your computer before running the setup commands.
+
+### 1. Clone the Repository
+```bash
+git clone <YOUR_REPOS_GITHUB_LINK_HERE>
+cd flexzone-fitness
