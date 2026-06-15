@@ -1,37 +1,52 @@
-# Cooking Masterclass - Dynamic Catalogue Interface
+# Cape Town Food Fest – Interactive Ticket Landing Page
 
-An interactive, responsive single-page catalogue prototype showcasing curated culinary workshops hosted by expert chefs. Built with a modular, component-driven architecture using **Vue 3** and **Vite**.
+An elegant, modern, and fully responsive single-page Vue.js application designed for the annual **Cape Town Food Fest**. This landing page serves as the visual foundation for a future ticketing system, allowing food lovers to explore ticket tiers, compare benefits, and interact with the event's offerings.
 
-This project serves as the interactive frontend layout foundation for the platform's future e-commerce system.
-
----
-
-## 🚀 Key Features Built
-
-* **Dynamic Component Architecture:** Renders workshop profiles (Chef names, skill level badges, prices) dynamically via Vue components with zero hardcoded duplication.
-* **Reactive Wishlist Pipeline:** Clicking "Save to Wishlist" tracks saved courses, updates individual card states, and instantly increments the counter badge in the page header.
-* **Clear "Sold Out" Statuses:** Unavailable courses clearly display a bold "Sold Out" badge, drop in opacity, and automatically lock/disable their wishlist selection buttons.
-* **Responsive Layout Design:** Adapts smoothly across mobile devices, tablets, and desktop monitors using CSS Grid and clean layout breakpoints.
-* **Bonus Stretch Integrations:** * Includes local price formatting using localized currency notation (ZAR).
-  * Includes an interactive filter toggle to instantly switch between "All Classes" and "Available Only".
-  * Features subtle hover lifting animations on cards and a micro-pulse warning transition on the header wishlist badge.
+Built with **Vue 3** and optimized for a seamless user experience, the project showcases component-driven development, dynamic data rendering, and fluid interactions.
 
 ---
 
-## 🛠️ Technical Scope & Setup
+## Project Overview
 
-* **Framework:** Vue 3 (Options API configuration)
-* **Build Tool:** Vite
-* **Data Layer:** Local data arrays (No external API or database dependencies)
-* **Routing:** Single-page app workflow (No Vue Router)
+The Cape Town Food Fest landing page brings a vibrant outdoor festival energy to the screen. It aims to drive engagement and help potential attendees evaluate ticket tiers before official sales launch.
+
+### Key Features
+* **Dynamic Ticket Grid:** Ticket tiers (Bronze, Silver, Gold) are rendered dynamically from a centralized local data array using reusable Vue components and props.
+* **Visual Hierarchy:** The **Gold Tier** is dynamically highlighted as the "Featured" option with enhanced styling to drive conversions.
+* **Interactive Engagement:** Users can "favourite" tiers in real-time, simulating a modern e-commerce experience with interactive state changes.
+* **Responsive Layout:** A mobile-first CSS grid/flexbox design ensuring the festival looks stunning on smartphones, tablets, and desktops alike.
+* **Polished Micro-interactions:** Smooth CSS hover transitions and button animations for an organic, premium feel.
 
 ---
 
-## ⚙️ Installation & Running the Project Local Engine
+## Interface Preview
 
-Make sure you have [Node.js](https://nodejs.org/) installed on your computer before setting up.
+> 💡 *Replace the placeholder image link below with your actual screenshot path (e.g., `src/assets/screenshot.png` or an imgur link) once your UI is finalized.*
 
-### 1. Clone the Project Repository
+![Cape Town Food Fest Interface](https://via.placeholder.com/1200x600.png?text=Cape+Town+Food+Fest+Landing+Page+Preview)
+
+---
+
+## Technical Architecture
+
+This project strictly adheres to the technical boundaries set by the brief:
+* **Framework:** Vue 3 (Composition API / Options API)
+* **Tooling:** Vite (for ultra-fast development and bundling)
+* **State Management:** Local Vue reactivity (`ref`, `reactive`, and `computed` properties)
+* **Component Architecture:**
+    * `App.vue`: Handles global layout, header, state initialization, and the main wrapper.
+    * `TicketCard.vue`: A highly reusable component leveraging **Props** for data injection and **Slots** for flexible action buttons.
+
+---
+
+## Installation & Setup Instructions
+
+Follow these steps to clone, install, and run the project locally on your machine.
+
+### Prerequisites
+Ensure you have [Node.js](https://nodejs.org/) installed (version 16.x or higher recommended).
+
+### 1. Clone the Repository
 ```bash
-git clone <your-github-repository-url-here>
-cd cooking-masterclass
+git clone [https://github.com/YOUR_USERNAME/cape-town-food-fest.git](https://github.com/YOUR_USERNAME/cape-town-food-fest.git)
+cd cape-town-food-fest
