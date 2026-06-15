@@ -21,10 +21,6 @@ The Cape Town Food Fest landing page brings a vibrant outdoor festival energy to
 
 ## Interface Preview
 
-> 💡 *Replace the placeholder image link below with your actual screenshot path (e.g., `src/assets/screenshot.png` or an imgur link) once your UI is finalized.*
-
-![Cape Town Food Fest Interface](https://via.placeholder.com/1200x600.png?text=Cape+Town+Food+Fest+Landing+Page+Preview)
-
 ---
 
 ## Technical Architecture
