@@ -10,7 +10,6 @@ A modern, interactive, single-page application prototype showcasing short-term r
 * **Persistent Bookmarks (Stretch Goal):** Saves favorited configurations directly inside browser local storage arrays across reloads.
 
 ## 📸 Interface Preview
-> *[Place your interface screenshot file path here inside your repository repository, e.g. `src/assets/screenshot.png` or an Imgur link]*
 
 ## 🛠️ Installation & Run Guide
 
